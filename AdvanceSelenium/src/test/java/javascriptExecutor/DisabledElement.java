@@ -32,9 +32,9 @@ public class DisabledElement
 		}
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
-		js.executeScript("document.getElementId('abc').value='selenium'");
+		js.executeScript("document.getElementById('abc').value='selenium'");
 		
 		Thread.sleep(5000);
-		js.executeScript("document.getElementId('abc').value=' '");
+		js.executeScript("document.getElementById('abc').value=' '");
 	}
 }

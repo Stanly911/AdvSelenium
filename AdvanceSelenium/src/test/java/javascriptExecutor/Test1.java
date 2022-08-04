@@ -15,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Test1 
 {
 	@Test
-	public void demo() {
+	public void demo() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -29,5 +29,8 @@ public class Test1
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("window.scrollBy("+x+","+y+")");
+		
+		Thread.sleep(3000);
+		ele.click();
 	}
 }
