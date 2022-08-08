@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-04T08:55:52 IST" name="Default suite" finished-at="2022-08-04T08:56:07 IST" duration-ms="15703">
+  <suite started-at="2022-08-08T10:37:57 IST" name="Default suite" finished-at="2022-08-08T10:38:09 IST" duration-ms="11652">
     <groups>
     </groups>
-    <test started-at="2022-08-04T08:55:52 IST" name="Default test" finished-at="2022-08-04T08:56:07 IST" duration-ms="15703">
-      <class name="actions.Senario0">
-        <test-method signature="sc0()[pri:0, instance:actions.Senario0@4ef37659]" started-at="2022-08-04T08:55:52 IST" name="sc0" finished-at="2022-08-04T08:56:07 IST" duration-ms="15620" status="PASS">
+    <test started-at="2022-08-08T10:37:57 IST" name="Default test" finished-at="2022-08-08T10:38:09 IST" duration-ms="11652">
+      <class name="dataDriven.JdbcFile">
+        <test-method signature="test()[pri:0, instance:dataDriven.JdbcFile@2beee7ff]" started-at="2022-08-08T10:37:57 IST" name="test" finished-at="2022-08-08T10:38:09 IST" duration-ms="11589" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sc0 -->
-      </class> <!-- actions.Senario0 -->
+        </test-method> <!-- test -->
+      </class> <!-- dataDriven.JdbcFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
