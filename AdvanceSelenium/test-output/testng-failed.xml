@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actions.Senario0">
+      <class name="dataDriven.JdbcFile">
         <methods>
-          <include name="sc0"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- actions.Senario0 -->
+      </class> <!-- dataDriven.JdbcFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
