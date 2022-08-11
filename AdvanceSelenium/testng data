@@ -1,0 +1,41 @@
+<class name="dataDriven.XMLFile"/>
+
+ <parameter name="url" value="https://www.facebook.com/"/>
+ <parameter name="username" value="admin"/>
+ <parameter name="password" value="manager"/>
+ 
+ ============================================================================================
+ 
+ <suite name="Suite" parallel="tests">
+
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="testNg.Test0"/>
+      <class name="testNg.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="Test2">
+    <classes>
+      <class name="testNg.Test2"/>
+      <class name="testNg.Test3"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  ===========================================================================================
+  
+  <suite name="Suite">
+
+<groups>
+<run>
+<include name="deleteCustomer"/>
+<!--exclude name="deleteCustomer"/-->
+</run>
+</groups>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNg.Demo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
