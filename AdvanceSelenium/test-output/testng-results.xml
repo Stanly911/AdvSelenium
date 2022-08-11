@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[on Starts]]>
+    </line>
+    <line>
+      <![CDATA[on Test Starts]]>
+    </line>
+    <line>
+      <![CDATA[on Test success]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-08-08T10:37:57 IST" name="Default suite" finished-at="2022-08-08T10:38:09 IST" duration-ms="11652">
+  <suite started-at="2022-08-10T08:58:42 IST" name="Default suite" finished-at="2022-08-10T08:58:53 IST" duration-ms="10672">
     <groups>
     </groups>
-    <test started-at="2022-08-08T10:37:57 IST" name="Default test" finished-at="2022-08-08T10:38:09 IST" duration-ms="11652">
-      <class name="dataDriven.JdbcFile">
-        <test-method signature="test()[pri:0, instance:dataDriven.JdbcFile@2beee7ff]" started-at="2022-08-08T10:37:57 IST" name="test" finished-at="2022-08-08T10:38:09 IST" duration-ms="11589" status="PASS">
+    <test started-at="2022-08-10T08:58:42 IST" name="Default test" finished-at="2022-08-10T08:58:53 IST" duration-ms="10672">
+      <class name="testNg.TestListen">
+        <test-method signature="Listening()[pri:0, instance:testNg.TestListen@e1de817]" started-at="2022-08-10T08:58:42 IST" name="Listening" finished-at="2022-08-10T08:58:53 IST" duration-ms="10560" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[on Test Starts]]>
+            </line>
+            <line>
+              <![CDATA[on Test success]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- dataDriven.JdbcFile -->
+        </test-method> <!-- Listening -->
+      </class> <!-- testNg.TestListen -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

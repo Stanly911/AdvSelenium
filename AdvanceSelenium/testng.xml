@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="Suite" parallel="tests">
 
- <parameter name="url" value="https://www.facebook.com/"/>
- <parameter name="username" value="admin"/>
- <parameter name="password" value="manager"/>
- 
-  <test thread-count="5" name="Test">
+  <test thread-count="5" name="Test1">
     <classes>
-      <class name="dataDriven.XMLFile"/>
+      <class name="testNg.Test0"/>
+      <class name="testNg.Test1"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="Test2">
+    <classes>
+      <class name="testNg.Test2"/>
+      <class name="testNg.Test3"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
